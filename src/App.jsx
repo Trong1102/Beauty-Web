@@ -9,6 +9,7 @@ import CartPage from './pages/CartPage'
 import CheckoutPage from './pages/CheckoutPage'
 import OrderSuccessPage from './pages/OrderSuccessPage'
 import ProductDetailPage from './pages/ProductDetailPage'
+import ChatBot from './components/ChatBot'
 
 function App() {
   return (
@@ -81,6 +82,7 @@ function App() {
                 </div>
               </footer>
             </main>
+            <ChatBot />
           </div>
         </BrowserRouter>
       </OrderProvider>
